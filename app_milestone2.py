@@ -1,25 +1,4 @@
 # app_milestone2.py
-"""
-SkillGapAI — Milestone 2 (Final Upgraded, cleaned)
-- Module / Project title: Skill Extraction using NLP – Technical & Soft Skill Analyzer
-- Single-file Streamlit app
-- CSV / PDF / DOCX / TXT parsing
-- Skill extraction (keyword lists + automatic spaCy if present, silent)
-- Plotly visualizations with matplotlib fallback
-- Highlighting, JSON export, CSV & Excel (multi-sheet) export with per-skill context
-- Extra features:
-    * Separate percentages metrics
-    * Interactive per-skill expanders (sentence context)
-    * Downloadable PDF report (ReportLab if available; fallback)
-    * Polished charts and color UI (Dark theme only)
-- Developed for: Anilkumar
-
-Notes:
-- Theme is fixed to Dark.
-- Default skill lists (technical + soft) are used unchanged.
-- Developer sample file path retained for metadata (local path included for your tooling).
-"""
-
 import streamlit as st
 import re
 import os
@@ -998,3 +977,4 @@ st.markdown(
     "<div style='margin-top:16px; color:#95a3b3; text-align:center;'>Milestone 2 • Skill Extraction • SkillGapAI • Developed by Anilkumar</div>",
     unsafe_allow_html=True,
 )
+
