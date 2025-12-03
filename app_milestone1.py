@@ -1,3 +1,6 @@
+# ============================================================
+# SkillGapAI – Milestone 1
+# ============================================================
 import streamlit as st
 import docx2txt
 import PyPDF2
@@ -250,4 +253,5 @@ else:
 # FOOTER
 now = datetime.now().strftime("%b %d, %Y")
 st.markdown(f"<div class='footer'>SkillGapAI • Developed by <b>Anilkumar</b> • {now}</div>", unsafe_allow_html=True)
+
 
