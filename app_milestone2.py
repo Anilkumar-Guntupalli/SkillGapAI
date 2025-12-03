@@ -1,4 +1,6 @@
-# app_milestone2.py
+# ============================================================
+# SkillGapAI – Milestone 2
+# ============================================================
 import streamlit as st
 import re
 import os
@@ -977,4 +979,5 @@ st.markdown(
     "<div style='margin-top:16px; color:#95a3b3; text-align:center;'>Milestone 2 • Skill Extraction • SkillGapAI • Developed by Anilkumar</div>",
     unsafe_allow_html=True,
 )
+
 
